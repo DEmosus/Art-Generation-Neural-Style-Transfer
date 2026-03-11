@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Jupyter Notebooks ---
+# Ignore notebook checkpoints and temporary files
+.ipynb_checkpoints/
+
+# --- Data files ---
+# Ignore large datasets (keep only small sample files if needed)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+
+# --- Logs and outputs ---
+*.log
+*.out
+*.err
+
+# --- Environment / dependencies ---
+.env
+.venv/
+.myenv/
+env/
+venv/
+*.egg-info/
+*.egg
+
+# --- OS / IDE specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# --- Model artifacts ---
+*.pkl
+*.joblib
+*.ckpt
+*.weights
+*.h5
+Desktop/
