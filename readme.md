@@ -33,16 +33,16 @@ Neural Style Transfer attempts to solve the following problem:
 
 Mathematically the optimization objective is:
 
-\[
+$$
 J*{total} = \alpha J*{content} + \beta J\_{style}
-\]
+$$
 
 Where:
 
-- \(J\_{content}\) = content reconstruction loss
-- \(J\_{style}\) = style reconstruction loss
-- \(\alpha\) = content weight
-- \(\beta\) = style weight
+- $(J\_{content})$ = content reconstruction loss
+- $(J\_{style})$ = style reconstruction loss
+- $(\alpha)$ = content weight
+- $(\beta)$ = style weight
 
 ---
 
